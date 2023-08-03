@@ -143,19 +143,20 @@ main .container-card .card {
     flex-direction: column;
 }
 
-main .container-card .card.choose {
+/* main .container-card .card.choose {
     box-shadow: inset;
-}
+} */
 
 main .container-card .card .card-image {
     width: 350px;
     height: 219px;
     display: flex;
+    justify-content: center;
 }
 
 main .container-card .card img {
     object-fit: cover;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 main .container-card .card .card-content {
