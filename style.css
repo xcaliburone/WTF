@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -156,7 +157,7 @@ main .container-card .card .card-image {
 
 main .container-card .card img {
     object-fit: cover;
-    /* max-width: 100%; */
+    max-width: 100%;
 }
 
 main .container-card .card .card-content {
